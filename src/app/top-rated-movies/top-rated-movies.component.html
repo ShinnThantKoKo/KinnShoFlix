@@ -1,0 +1,14 @@
+<div class="container">
+  <h3>Top Rated Movies</h3>
+
+  <div class="cards">
+        <div class="card card1" style="width: 18rem;" *ngFor="let movie of movies">
+              <img class="card-img-top" src="http://image.tmdb.org/t/p/w500/{{movie.backdrop_path}}" alt="Card image cap">
+              <div class="card-body">
+               <h5 class="card-title">{{movie.original_title}}</h5>
+               <p class="card-text"></p>
+               <a href="#" class="btn btn-primary">Watch</a>
+               </div>
+        </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+<div class="formdiv">
+    <h2>LOG IN</h2>
+    <form action="" class="form">
+        <label for="email"></label>
+        <input type="email" id="email" name="email" required placeholder="EMAIL" [(ngModel)]="username" #myemail="ngModel" minlength="5">
+        <div *ngIf="!myemail.valid && myemail.touched">
+            <div *ngIf="myemail.errors?.['required']" >
+                Please enter a user name.
+            </div>
+            <div *ngIf="myemail.errors?.['minlength']">
+                Username must have at least 5 characters.
+            </div>
+        </div>
+
+        <label for="password"></label>
+        <input type="password" id="password" name="password" placeholder="PASSWORD" [(ngModel)]="password" #mypassword="ngModel" >
+
+        <a href="">
+            <p>FORGOT YOUR PASSWORD?</p>
+        </a>
+
+        <input type="submit" value="REGISTER" class="btn btn-primary" id="register" (click)="checkFun()">
+        <input type="submit" value="SIGN UP" class="btn btn-primary" id="signup">
+    </form>
+</div>
+    

@@ -1,0 +1,73 @@
+/* body {
+    background-image: linear-gradient(to right, #cc2b5e, #753a88);
+} */
+
+/* @font-face {
+    font-family: serif;
+    src: url(fonts/Tilt_Neon/TiltNeon-Regular-VariableFont_XROT\,YROT.ttf);
+} */
+
+.formdiv {
+    background-color: rgb(248, 248, 255);
+    width: 50%;
+    height: 350px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 5px rgb(70, 71, 71);
+    border: none;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    color: gray;
+    margin-top: 15px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: gray;
+    text-shadow: 3px 3px 5px rgb(90, 89, 89);
+}
+
+#register {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+#signup {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#email {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+
+#password {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
